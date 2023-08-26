@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans";
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(https://images.pexels.com/photos/556414/pexels-photo-556414.jpeg?cs=srgb&dl=pexels-pixabay-556414.jpg&fm=jpg);
+  font-size: 16px;
+  background-size: 87.5em;
+}
+header {
+  margin: 0.625em;
+  padding: 4.25em .3125em .3125em .3125em;
+}
+header h1 {
+  position: relative;
+  margin: 0em 0.125em 0.625em 0.125em;
+  background-color: #ede137;
+  font-family: "Righteous";
+}
+.title {
+  box-shadow: 8px 4px 0px rgb(0, 0, 0);
+  margin: auto;
+  padding-top: 1.875em;
+  max-width: 50em;
+  background-color: #ede137;
+  align-items: center;
+  text-align: center;
+}
+.title img {
+  width: 10%;
+  position: relative;
+}
+.info {
+  box-shadow: 8px 4px 0px rgb(0, 0, 0);
+  display: flex;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  max-width: 50em;
+  height: 31.25em;
+}
+.steps {
+  width: 65%;
+  background-color: #1e2326;
+  color: #fff;
+  height: 100%;
+}
+p {
+  font-family: "Righteous";
+  font-size: 1.375em;
+  padding: 0.625em;
+}
+.aside {
+  width: 35%;
+  height: 100%;
+  background-color: gray;
+}
+.aside img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  margin: 0.625em;
+}
+.datos {
+  box-shadow: 8px 4px 0px rgb(0, 0, 0);
+  background-color: #ede137;
+  display: flex;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  max-width: 50em;
+  padding: 0.3125em;
+}
+
+/*?xx-extra large devices (pc-laptops)*/
+@media (max-width:2565px){
+    body{
+        font-size: 16px;
+        background-size: 2650px;
+        translate:0px -40px ;
+    }
+}
+
+/*?x-extra large devices (pc-laptops)*/
+@media (max-width:1440px){
+    body{
+        font-size: 14px;
+        background-size: 1450px;
+        translate:0px 40px ;
+    }
+}
+
+/*?extra large devices (pc-laptops)*/
+@media (max-width:1200px){
+    body{
+        font-size: 14px;
+        background-size: 1300px;
+    }
+}
+
+/*? large devices (tablets)*/
+@media (max-width:768px){
+    body{
+        font-size: 12px;
+        background-size: 1300px;
+    }
+}
+
+/*? small devices (cellPhones)*/
+@media (max-width:518px){
+    body{
+        font-size: 10px;
+    }
+}
+
+/*?x-small devices */
+@media (max-width:430px){
+    body{
+        font-size: 8px;
+        margin-top: 100px;
+    }
+}
